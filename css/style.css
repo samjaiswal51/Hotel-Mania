@@ -33,3 +33,37 @@ body{
     font-family: var( --primarary-font);
     background-color: var(--bg-white);
 }
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width: 0.375rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+section{
+    padding:3.125rem ;
+}
+
+.main-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0.0625rem solid var(--primary-color);
+    padding: .375rem 1.875rem;
+    border-radius: 3.125rem;
+    line-height: 1.75rem;
+    display: inline-block;
+    transition: all 0.3s ease-out 0s;
+}
