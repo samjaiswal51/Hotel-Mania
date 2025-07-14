@@ -203,3 +203,7 @@ p{
     position: relative;
     z-index: 99;
 }
+
+.about_wrapper{
+    padding-top: 9.375rem;
+}
