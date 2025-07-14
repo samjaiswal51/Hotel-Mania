@@ -194,3 +194,12 @@ p{
         top: 0;
     }
 }
+
+.booking-area{
+    background-color: var(--bg-white);
+    box-shadow: 0.625rem .9375rem 0 rgb(0 0 0 / 10%, green, blue);
+    margin-top: -4rem;
+    padding: 3.125rem 1.875rem;
+    position: relative;
+    z-index: 99;
+}

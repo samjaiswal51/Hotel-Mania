@@ -12,6 +12,16 @@
     .main-btn{
         font-size: 0.875rem;
     }
+
+    .booking-area{
+        padding: 3rem 0.625rem;
+    }
+
+    .booking-area .main-btn{
+        padding-left: 0.3125rem !important;
+        padding-right: 0.3125rem !important;
+
+    }
     
 }
 
@@ -33,6 +43,16 @@
 
     .header_wrapper .nav-item .nav-link{
         margin-top: .9375rem;
+    }
+
+    .banner_wrapper{
+        height: 25.625rem;
+
+    }
+
+    .booking-area{
+        padding: 0.3125rem 1.875rem;
+
     }
 }
 
@@ -111,3 +131,4 @@
     margin: 0 auto;
     color: var(--text-white);
 }
+
