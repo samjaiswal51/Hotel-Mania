@@ -75,9 +75,31 @@ Follow these steps to run the project locally on your machine:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/hotel-the-haven.git
+git clone https://github.com/your-username/Hotel-The-Heaven.git
 ```
-### Navigate to the Project Folder
+### 2️⃣ Navigate to the Project Folder
 ```bash
-git clone https://github.com/your-username/hotel-the-haven.git
+cd Hotel-The-Heaven
 ```
+### 3️⃣ Open the Project
+Since this is a static website, you can open index.html directly in a browser .
+
+### 4️⃣ Dependencies
+Ensure you have an internet connection to load external libraries (Swiper.js, Font Awesome, Google Fonts, etc.).<br>
+No additional installations are required for this static site.
+
+---
+
+## 📌 Notes
+🧪 This project is a frontend-only website built to showcase a hotel's services and branding. <br>
+🔗 External assets like images (title-icon.webp, counter-bg.webp, etc.) need to be hosted or replaced with valid paths.<br>
+
+⚠️ Replace placeholder image paths and social media links in index.html with actual links before deployment.<br>
+
+🌐 The website uses Swiper.js for the hero slider and Font Awesome for icons, loaded via CDN.
+
+
+
+
+
+
