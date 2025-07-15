@@ -8,24 +8,26 @@
 }
 
 :root {
-  /* backgroud color */
+  /* Background Colors */
+  --primary-color: #2e4d36;        /* Deep Forest Green */
+  --secondary-color: #a3c49a;      /* Soft Sage Green */
+  --bg-color: #f2f8f4;             /* Light Mint Background */
+  --bg-white: #ffffff;
+  --bg-black: #0f1e13;
 
-  --primary-color: #012e66;
-  --secondary-color: #caa169;
-  --bg-color: #cac9c9;
-  --bg-white: white;
-  --bg-black: black;
+  /* Text Colors */
+  --primary-text: #2e4d36;         /* Forest Green */
+  --secondary-text: #6f8d6d;       /* Muted Olive */
+  --text-white: #ffffff;
+  --text-black: #1a1a1a;
+  --text-gray: #7a8b7c;            /* Soft Gray-Green */
 
-  /* text style */
-
-  --primarary-font: "Poppins", sans-serif;
-  --secondary-font: "Poppins", sans-serif;
-  --primary-text: #012e66;
-  --secondary-text: #caa169;
-  --text-white: white;
-  --text-black: black;
-  --text-gray: #e4e4e4;
+  /* Fonts */
+  --primary-font: "Poppins", serif;
+  --secondary-font: "Poppins", serif;
+  
 }
+
 
 body {
   font-family: var(--primarary-font);
