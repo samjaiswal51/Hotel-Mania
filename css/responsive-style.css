@@ -34,6 +34,22 @@
     .rooms-items .room-content p{
         font-size: 0.75rem;
     }
+
+    .service-item-wrap .tab-content img{
+        width: 100%;
+    }
+
+    .service-menu-area ul li a {
+        margin-bottom: 1.5rem;
+    }
+
+    .service-menu-area ul li a h5 {
+        font-size: 1rem;
+    }
+
+    .service-menu-area ul li a p {
+        font-size: 0.875rem;
+    }
     
 }
 
@@ -83,6 +99,52 @@
         font-size: 1rem;
     }
 
+    .service-menu-area {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .service-item-wrap {
+        flex-direction: column;
+    }
+
+    .service-item-wrap > div {
+        width: 100% !important;
+    }
+
+    .service-menu-area ul {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-menu-area ul li {
+        width: 100%;
+        margin-left: unset !important;
+    }
+
+    .service-item-wrap .tab-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-menu-area ul li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-menu-area ul li a .service-icon {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .service-menu-area ul li a h5,
+    .service-menu-area ul li a p {
+        padding-left: 0;
+        text-align: center;
+    }
+
     
 }
 
@@ -106,6 +168,21 @@
     p{
         font-size: 0.8125rem;
         line-height: 1.5rem;
+    }
+
+    .service-menu-area ul li {
+        width: 100%;
+    }
+
+    .service-item-wrap .tab-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-menu-area ul li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

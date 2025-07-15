@@ -330,3 +330,39 @@ p {
 .service-menu-area ul li a p span{
   color: var(--secondary-color);
 }
+
+.counter{
+  background-image: url("../images/counter-bg.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3.125rem;
+  position: relative;
+}
+
+.counter::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-black);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.counter h1,
+.counter p{
+  position: relative;
+  z-index: 3;
+  columns: var(--text-white);
+}
+
+/* .counter h1{
+  top: 0;
+}
+
+.counter p{
+  top: 10%;
+} */
