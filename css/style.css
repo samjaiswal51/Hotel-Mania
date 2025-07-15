@@ -366,3 +366,54 @@ p {
 .counter p{
   top: 10%;
 } */
+
+.team_wrapper .card{
+  position: relative;
+  overflow: hidden;
+}
+
+.team_wrapper .team-info{
+  background-color: var(--secondary-color);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  -webkit-margin-bottom-collapse: 0;
+  text-align: center;
+  padding:1.25rem ;
+  margin-bottom: -4.6875rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.team_wrapper .card:hover .team-info{
+  margin-bottom: 0;
+
+}
+
+.team_wrapper .team-info h5,
+.team_wrapper .team-info p{
+  color: var(--text-white);
+
+}
+
+.team_wrapper .team-info .social-network{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3 ease-in-out;
+  padding: 1.25rem;
+  margin: 1.25rem -1.25rem -1.25rem;
+  background-color: var(--primary-color);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.team_wrapper .team-info .social-network li a{
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  display: block;
+  border-radius: 50% ;
+  font-size: 0.9375rem;
+  color: var(--text-white);
+  border:0.0625rem solid var(--bg-white) ;
+}
