@@ -12,7 +12,7 @@
 
   --primary-color: #012e66;
   --secondary-color: #caa169;
-  --bg-colr: #f4f4f4;
+  --bg-color: #cac9c9;
   --bg-white: white;
   --bg-black: black;
 
@@ -269,6 +269,64 @@ p {
 }
 
 .main-btn.border-white:hover {
-  background-color: var(--text-white);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-text);
+}
+
+/* services */
+.service-item-wrap{
+  background-color: rgb(236, 235, 235);
+
+}
+
+.service-menu-area ul li a{
+  display: block;
+  margin-bottom: 2.8125rem;
+}
+
+.service-menu-area ul li a .service-icon{
+  height: 5.625rem;
+  width: 5.625rem;
+  line-height: 5.625rem;
+  background-color: var(--secondary-color);
+  text-align: center;
+  border-radius: 100%;
+  float: left;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out ;
+}
+
+.service-menu-area ul{
+  margin-top: 4.5rem ;
+}
+
+.service-menu-area ul li a .service-icon:hover
+,.service-menu-area ul li a .service-icon:active{
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  box-shadow: 0 0.125rem rgb(34,30,31 /40%);
+}
+
+.service-menu-area ul li:nth-child(1){
+  margin-left: 0.5625rem;
+}
+.service-menu-area ul li:nth-child(2){
+  margin-left: -2.9375rem;
+}
+.service-menu-area ul li:nth-child(3){
+  margin-left: -6.375rem;
+}
+.service-menu-area ul li:nth-child(4){
+  margin-left: -8.8125rem;
+}
+
+.service-menu-area ul li a p,
+.service-menu-area ul li a h5{
+  padding-left: 6.875rem;
+  display: block;
+  text-align: left;
+}
+
+.service-menu-area ul li a p span{
+  color: var(--secondary-color);
 }
